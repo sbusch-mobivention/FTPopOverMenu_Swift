@@ -17,6 +17,7 @@ public class FTConfiguration : NSObject {
     public var borderColor : UIColor = FT.DefaultTintColor
     public var borderWidth : CGFloat = FT.DefaultBorderWidth
     public var backgoundTintColor : UIColor = FT.DefaultTintColor
+    public var iconTintColor: UIColor = FT.DefaultTintColor
     public var cornerRadius : CGFloat = FT.DefaultCornerRadius
     public var textAlignment : NSTextAlignment = NSTextAlignment.left
     public var ignoreImageOriginalColor : Bool = false

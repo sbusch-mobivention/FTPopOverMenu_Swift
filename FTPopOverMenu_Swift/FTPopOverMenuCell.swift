@@ -53,7 +53,7 @@ class FTPopOverMenuCell: UITableViewCell {
                 if  configuration.ignoreImageOriginalColor {
                     iconImage = iconImage?.withRenderingMode(UIImageRenderingMode.alwaysTemplate)
                 }
-                iconImageView.tintColor = configuration.textColor
+                iconImageView.tintColor = configuration.iconTintColor
                 iconImageView.frame =  CGRect(x: FT.DefaultCellMargin, y: (configuration.menuRowHeight - configuration.menuIconSize)/2, width: configuration.menuIconSize, height: configuration.menuIconSize)
                 iconImageView.image = iconImage as? UIImage
                 nameLabel.frame = CGRect(x: FT.DefaultCellMargin*2 + configuration.menuIconSize, y: (configuration.menuRowHeight - configuration.menuIconSize)/2, width: (configuration.menuWidth - configuration.menuIconSize - FT.DefaultCellMargin*3), height: configuration.menuIconSize)
